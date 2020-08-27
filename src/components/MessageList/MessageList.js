@@ -7,7 +7,7 @@ const MessageList = ({ messages = [] }) => {
 
   useEffect(() => {
     if (chatEndRef && chatEndRef.current) {
-      chatEndRef.current.scrollIntoView({ behavior: 'smooth' });
+      chatEndRef.current.scrollIntoView();
     }
   }, [chatEndRef, messages.length]);
 

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
-import './styles.css';
 import Message from '../Message';
+import './styles.css';
 
 const MessageList = ({ messages = [] }) => {
   const chatEndRef = useRef();

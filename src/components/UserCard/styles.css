@@ -1,0 +1,28 @@
+.user-card {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  border: none;
+  outline: none;
+  background: none;
+
+  color: #515050;
+  min-width: 200px;
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+
+.user-card--active {
+  background-color: lightgrey;
+}
+
+.user-card__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.user-card__name {
+  font-size: 15px;
+}
